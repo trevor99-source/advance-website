@@ -16,7 +16,6 @@ Static website, ready for GitHub Pages. No build step.
 
 ## To confirm before going live
 - Business email, physical address and opening hours (not yet on the site)
-- Purpose of the +263 79 005 3589 number (labelled "Alternative line")
 - Mission statement, quote process and FAQ answers (drafted generically)
 - Whether the photos are real Advance projects
 - Privacy policy, terms and disclaimer wording, reviewed by a South African attorney
