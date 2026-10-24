@@ -123,3 +123,12 @@ dialog{max-width:560px;width:92%;border:0;border-radius:6px;padding:30px;backgro
 form{padding:20px}.tp{padding:22px}.pb{padding:48px 0 40px}.pb p{font-size:17px}.mis{padding:24px}.mis p{font-size:20px}.head{margin-bottom:28px}.strip b{font-size:23px}.tabs button{padding:9px 14px;font-size:14px}.wa{right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px))}.gal figcaption{font-size:13px;padding:20px 10px 8px}summary{font-size:17px}.cg a.big{font-size:24px}}
 @media(max-width:560px){.dt{display:none}.brand{font-size:20px}}
 @media(max-width:480px){.hero h1{font-size:35px}}
+a,button{-webkit-tap-highlight-color:transparent}html{-webkit-text-size-adjust:100%}
+.wa{right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));height:58px;padding:0 22px 0 16px;gap:10px;border-radius:40px;background:linear-gradient(135deg,#2bd16d,#12904c);box-shadow:0 8px 24px rgba(18,144,76,.45);animation:wp 2.2s ease-out infinite;transition:transform .2s}
+.wa:hover,.wa:active{transform:scale(1.07)}
+.wa svg{width:30px;height:30px;flex:none;fill:#fff;animation:sk 5s ease-in-out infinite}
+@keyframes wp{0%{box-shadow:0 8px 24px rgba(18,144,76,.45),0 0 0 0 rgba(43,209,109,.7)}70%{box-shadow:0 8px 24px rgba(18,144,76,.45),0 0 0 24px rgba(43,209,109,0)}100%{box-shadow:0 8px 24px rgba(18,144,76,.45),0 0 0 0 rgba(43,209,109,0)}}
+@keyframes sk{0%,86%,100%{transform:rotate(0)}89%{transform:rotate(-16deg)}92%{transform:rotate(14deg)}95%{transform:rotate(-8deg)}}
+@media(max-width:900px){.wa{width:60px;height:60px;padding:0;justify-content:center;border-radius:50%}.wa span{display:none}.wa svg{width:34px;height:34px}}
+@media(max-width:700px){.hero h1{animation:up .8s both;text-wrap:balance}.hero h1 span{display:inline;animation:none}.hero{min-height:min(88svh,640px)}nav a{padding:15px 0;font-size:17px}.hero .btn{padding:14px 20px}}
+@media(prefers-reduced-motion:reduce){.wa,.wa svg{animation:none}.wa{box-shadow:0 0 0 6px rgba(43,209,109,.3),0 8px 24px rgba(18,144,76,.45)}}
