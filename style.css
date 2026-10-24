@@ -132,3 +132,8 @@ a,button{-webkit-tap-highlight-color:transparent}html{-webkit-text-size-adjust:1
 @media(max-width:900px){.wa{width:60px;height:60px;padding:0;justify-content:center;border-radius:50%}.wa span{display:none}.wa svg{width:34px;height:34px}}
 @media(max-width:700px){.hero h1{animation:up .8s both;text-wrap:balance}.hero h1 span{display:inline;animation:none}.hero{min-height:min(88svh,640px)}nav a{padding:15px 0;font-size:17px}.hero .btn{padding:14px 20px}}
 @media(prefers-reduced-motion:reduce){.wa,.wa svg{animation:none}.wa{box-shadow:0 0 0 6px rgba(43,209,109,.3),0 8px 24px rgba(18,144,76,.45)}}
+html,body{max-width:100%;overflow-x:clip}
+.hero,.band,.mq,.pb,.strip{overflow:hidden}
+.hero:after{right:0;width:100%}
+.hero:after{transform:none!important;width:100%;background-size:260% 100%;background-position:160% 0;animation:shine2 2.4s .6s 1 forwards}
+@keyframes shine2{to{background-position:-60% 0}}
